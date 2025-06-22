@@ -24,7 +24,7 @@ API desenvolvida em **NestJS** com **Prisma ORM** e **PostgreSQL**, para gerenci
 ```bash
 
 # Instale as dependências
-$ yarn
+npm install
 
 # Crie um .env para configurar as dependencias
 DATABASE_URL="postgresql://postgres:root@localhost:5432/teddy?schema=public"
