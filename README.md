@@ -22,11 +22,6 @@ API desenvolvida em **NestJS** com **Prisma ORM** e **PostgreSQL**, para gerenci
 ### Rodando o projeto
 
 ```bash
-# Clone o repositório
-
-$ git clone https://github.com/seu-usuario/backend-nest.git
-$ cd backend-nest
-
 
 # Instale as dependências
 $ yarn
