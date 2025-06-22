@@ -26,7 +26,8 @@ API desenvolvida em **NestJS** com **Prisma ORM** e **PostgreSQL**, para gerenci
 # Instale as dependências
 $ yarn
 
-# edite o DATABASE_URL com sua conexão Postgres
+# Crie um .env para configurar as dependencias
+DATABASE_URL="postgresql://postgres:root@localhost:5432/teddy?schema=public"
 
 # Crie as tabelas no banco
 npx prisma migrate dev --name init
