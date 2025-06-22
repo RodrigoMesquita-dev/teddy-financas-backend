@@ -49,5 +49,5 @@ npm run start:dev
 |GET|/peoples/paginated|Lista pessoas (paginado)|
 |POST|/peoples|Cria nova pessoa|
 |GET|/peoples/:id|Busca uma pessoa específica|
-|PUT|/peoples/:id|Atualiza dados de uma pessoa|
+|PATCH|/peoples/:id|Atualiza dados de uma pessoa|
 |DELETE|/people/:id|Remove uma pessoa|
